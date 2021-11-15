@@ -4,7 +4,7 @@
             <div class="logo-figure"></div>
             <h1 class="logo-heading">Vue todo</h1>
         </div>
-        <a class="link" href="https://github.com/" target="_blank">Github</a>
+        <a class="link" href="https://github.com/Kokosik11/vue-todo" target="_blank">Github</a>
     </header>
 </template>
 
