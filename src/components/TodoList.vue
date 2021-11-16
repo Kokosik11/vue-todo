@@ -1,6 +1,11 @@
 <template>
     <div class="todo-list">
-        <todo-item v-for="todo in todoList" :todo="todo" :key="todo.id" />
+        <todo-item 
+            v-for="todo in todoList" 
+            :todo="todo" 
+            :key="todo.id" 
+            @delete="$emit('delete', todo.id)" 
+        />
     </div>
 </template>
 
